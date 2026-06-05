@@ -19,7 +19,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';              // 哪吒v1的NZ_CLI
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'dcdepo.ashinvml.bond';          // 固定隧道域名,留空即启用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZjgxNGFkZmRjMTNjYzk3NWVhNzg2YzQzNWY3Yzc2NmYiLCJ0IjoiMWJkYTliZGUtM2JjMS00MTZkLWFhMDUtNDMzOTVlNWEwZGZiIiwicyI6IlpUa3laR0V3TVRJdE5qYzNZeTAwWVRVM0xXSmlOR1V0TXpBNU1qZ3lNalV3TURkbCJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const CFIP = process.env.CFIP || 'www.dhammadownload.com';            // 节点优选域名或优选ip  
+const CFIP = process.env.CFIP || 'mpt.com.mm';            // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || '';                        // 节点名称
 
